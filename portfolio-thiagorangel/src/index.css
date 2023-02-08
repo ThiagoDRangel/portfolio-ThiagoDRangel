@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(#f79e4a,#54b829, rgb(34, 34, 207), #371b79);
+  color: black;
+  font-family: 'Red Hat Mono', monospace;
+}
+
+button {
+  border: transparent;
+  display: flex;
+  margin-bottom: 5vh;
+  justify-content: center;
+  height: 8vh;
+  align-items: center;
+  border-radius: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #0f5e12;
+}
